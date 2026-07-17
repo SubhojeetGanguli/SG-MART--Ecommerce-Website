@@ -1,71 +1,223 @@
-SG Mart E-commerce Website
+# 🛒 SG Mart – E-commerce Website
 
-Overview
-SG Mart is a modern e-commerce platform built with React, TypeScript, and TailwindCSS. It features product listings, shopping cart functionality, checkout process, order tracking, and user authentication.
+SG Mart is a modern and responsive e-commerce web application built with **React, TypeScript, Vite, and Tailwind CSS**. The platform provides a seamless online shopping experience with features such as product browsing, shopping cart management, secure checkout flow, order tracking, and user authentication.
 
-Getting Started
-Prerequisites
-Node.js (v14 or later)
-npm or yarn
-Visual Studio Code
-Recommended VS Code Extensions
-This project includes recommendations for VS Code extensions. When you open the project in VS Code, you'll be prompted to install the recommended extensions, which include:
+Designed with a clean UI and reusable components, SG Mart demonstrates modern frontend development practices and responsive web design.
 
-ESLint
-Prettier
-Tailwind CSS IntelliSense
-TypeScript support
-And more helpful tools for React development
-Installation
-Clone the repository
+---
+
+## 🚀 Tech Stack
+
+- React.js
+- TypeScript
+- Vite
+- Tailwind CSS
+- Context API
+- JavaScript
+- CSS
+
+---
+
+## ✨ Features
+
+- Responsive and modern user interface
+- Product listing and browsing
+- Shopping cart functionality
+- Secure checkout process
+- User authentication
+- Order tracking
+- Reusable React components
+- Context API for state management
+- Fast performance with Vite
+
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+
+Make sure you have installed:
+
+- Node.js (v14 or later)
+- npm or Yarn
+
+---
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/sg-mart.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd project
+```
+
 Install dependencies:
+
+```bash
 npm install
-Development
+```
+
+---
+
+### Start the Development Server
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```
+http://localhost:5174
+```
+
+*(The port may change if 5174 is already in use.)*
+
+---
+
+## 🏗️ Production Build
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+---
+
+## 📁 Project Structure
+
+```
+project/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── data/
+│   ├── types/
+│   ├── utils/
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+│
+├── .vscode/
+├── .prettierrc
+├── postcss.config.js
+├── tailwind.config.js
+├── tsconfig.json
+├── vite.config.ts
+├── package.json
+└── README.md
+```
+
+---
+
+## 🛠️ Available Scripts
+
 Start the development server:
 
-cd project
+```bash
 npm run dev
-The application will be available at http://localhost:5174 (or another port if 5174 is in use).
+```
 
-VS Code Setup
-This project includes VS Code configuration files to enhance your development experience:
+Build the application:
 
-.vscode/settings.json: Editor settings for consistent formatting and linting
-.vscode/launch.json: Debug configurations for Chrome and Node.js
-.prettierrc: Code formatting rules
-jsconfig.json: JavaScript/TypeScript path resolution and IntelliSense
-Scripts
-npm run dev: Start the development server
-npm run build: Build the project for production
-npm run lint: Run ESLint to check for code issues
-npm run preview: Preview the production build locally
-npm run format: Format all source files with Prettier
-npm run format:check: Check if files are properly formatted
-Project Structure
-project/
-├── public/            # Static assets
-├── src/
-│   ├── components/    # React components
-│   ├── context/       # React context providers
-│   ├── data/          # Mock data
-│   ├── types/         # TypeScript type definitions
-│   ├── utils/         # Utility functions
-│   ├── App.tsx        # Main application component
-│   ├── index.css      # Global styles
-│   └── main.tsx       # Application entry point
-├── .vscode/           # VS Code configuration
-├── .prettierrc        # Prettier configuration
-├── postcss.config.js  # PostCSS configuration
-├── tailwind.config.js # Tailwind CSS configuration
-├── tsconfig.json      # TypeScript configuration
-└── vite.config.ts     # Vite configuration
-Troubleshooting VS Code Issues
-If you encounter issues with VS Code:
+```bash
+npm run build
+```
 
-Make sure all recommended extensions are installed
-Reload VS Code after installing extensions
-Check that TypeScript is using the workspace version (bottom right of VS Code)
-Try running npm install again to ensure all dependencies are properly installed
-Clear the TypeScript server cache: Ctrl+Shift+P → "TypeScript: Restart TS Server"
-License
-MIT
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+Run ESLint:
+
+```bash
+npm run lint
+```
+
+Format the project:
+
+```bash
+npm run format
+```
+
+Check formatting:
+
+```bash
+npm run format:check
+```
+
+---
+
+## 💻 VS Code Support
+
+This project includes recommended VS Code configuration files for a better development experience.
+
+Recommended extensions include:
+
+- ESLint
+- Prettier
+- Tailwind CSS IntelliSense
+- TypeScript Support
+
+Configuration files:
+
+- `.vscode/settings.json`
+- `.vscode/launch.json`
+- `.prettierrc`
+
+---
+
+## 🌐 Live Demo
+
+**https://your-live-demo-url.vercel.app**
+
+*(Replace with your deployed website URL.)*
+
+---
+
+## 💡 Future Improvements
+
+- Payment gateway integration
+- Wishlist functionality
+- Product reviews and ratings
+- Admin dashboard
+- Search and filter enhancements
+- Product recommendations
+- Coupon and discount system
+
+---
+
+## 👨‍💻 Author
+
+**Subhojeet Ganguli**
+
+- GitHub: https://github.com/SubhojeetGanguli
+- LinkedIn: https://www.linkedin.com/in/subhojeet-ganguli-397423252/
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+Built with ❤️ using React, TypeScript, Tailwind CSS, and Vite.
